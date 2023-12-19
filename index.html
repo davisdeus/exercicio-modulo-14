@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small price</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <!--Google Fontes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4 bg-primary-color" id="cabecalho">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="./img/icon/imovi-icon.png" alt="iMovi">
+                <span>Small price</span>
+            </a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="menuNavbar">
+
+                <ul class="navbar-nav d-block d-md-flex ">
+                    <li class="nav-item fw-bold primary-color">
+                        <a href="#slider-container" class="nav-link ">
+                            <i class="bi bi-house"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+
+                    <li class="nav-item fw-bold primary-color">
+                        <a href="#featured-container" class="nav-link">
+                            <i class="bi bi-search"></i>
+                            Atividades
+                        </a>
+                    </li>
+
+                    <li class="nav-item fw-bold primary-color">
+                        <a href="#info-container" class="nav-link">
+                            <i class="bi bi-shop-window"></i>
+                            Informativo
+                        </a>
+                    </li>
+
+                    <li class="nav-item fw-bold primary-color">
+                        <a href="#footer" class="nav-link">
+                            <i class="bi bi-journal-medical"></i>
+                            Entre em contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!--SLIDER-->
+
+    <section data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true" id="slider-container">
+
+        <section id="sobreALoja">
+            <div class="carousel slide" id="slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button data-bs-target="#slide" data-bs-slide-to="0" class="active"></button>
+                    <button data-bs-target="#slide" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#slide" data-bs-slide-to="2"></button>
+                    <button data-bs-target="#slide" data-bs-slide-to="3"></button>
+                </div>
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active " data-bs-interval="2000">
+                        <img src="./img/hoteis/frança/hotel castelo 01.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item " data-bs-interval="2000">
+                        <img src="./img/hoteis/rio de Janeiro/copacabana-palace.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item " data-bs-interval="2000">
+                        <img src="./img/hoteis/frança/hotel castelo 02.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item " data-bs-interval="2000">
+                        <img src="./img/hoteis/rio de Janeiro/hotél.jpg" alt="">
+                    </div>
+                </div>
+
+                <button type="button" class="carousel-control-prev" data-bs-target="#slide" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button type="button" class="carousel-control-next" data-bs-target="#slide" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+            </div>
+        </section>
+
+        <!--MINI BANNER-->
+
+        <section class="container">
+            <div class="col-12 col-10 mt-4 mb-5" id="mini-banners">
+                <div class="row">
+                    <h1 class="text-center">Sobre a loja</h1>
+
+                    <div class="col-sm-12 col-md-4 mb-4">
+                        <div class="card text-center pt-5">
+                            <i class="bi bi-house primary-color "></i>
+                            <div class="card-body ">
+                                <h5 class="card-title primary-color pb-3  fw-bold">Conheça nossas acomodações</h5>
+                                <p class="card-text secondary-color pb-5 fw-bold">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <a href="#" class="btn btn-dark  fw-bold ">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 mb-4">
+                        <div class="card text-center pt-5">
+                            <i class="bi bi-brightness-high primary-color "></i>
+                            <div class="card-body ">
+                                <h5 class="card-title primary-color pb-3  fw-bold">Participa exercícios?</h5>
+                                <p class="card-text secondary-color pb-5 fw-bold">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <a href="#" class="btn btn-dark  fw-bold ">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 mb-4">
+                        <div class="card text-center pt-5">
+                            <i class="bi bi-battery-full primary-color "></i>
+                            <div class="card-body ">
+                                <h5 class="card-title primary-color pb-3  fw-bold">Quer recaregar suas energias?</h5>
+                                <p class="card-text secondary-color pb-5 fw-bold">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <a href="#" class="btn btn-dark  fw-bold ">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!--DESTAQUES-->
+
+        <section class="container" id="featured-container">
+            <div class="col-12">
+                <h2 class="title primary-color">Conheça o que temos para oferecer</h2>
+                <p class="subtitle secondary-color mt-3 mb-4">
+                    Diversão cultura e arte
+                </p>
+
+            </div>
+            <div class="col-12" id="featured-images">
+                <div class="row">
+
+                    <!-- <div>
+                    <div class="col-sm-12 col-md-4">
+                    <img class="w-100 h-50" src="./img/hoteis/frança/entretenimento 01.jpg" class="img-fluid" alt="Projetos" >
+                    <div class="banner-content">
+                        <p class="secondary-color fw-bold">Categoria</p>
+                        <h3>Teatro</h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <img class="w-100 h-50" src="./img/hoteis/frança/entretenimento 02.jpg" class="img-fluid" alt="Projetos" >
+                    <div class="banner-content">
+                        <p class="secondary-color fw-bold">Categoria</p>
+                        <h3>Nome do Projeto</h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <img class="w-100 h-50" src="./img/hoteis/frança/entretenimento 03.jpg" class="img-fluid" alt="Projetos" >
+                    <div class="banner-content">
+                        <p class="secondary-color fw-bold">Categoria</p>
+                        <h3>Nome do Projeto</h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <img class="w-100 h-50" src="./img/atividades/atividades 01.jpeg" class="img-fluid" alt="Projetos" >
+                    <div class="banner-content">
+                        <p class="secondary-color fw-bold">Categoria</p>
+                        <h3>Nome do Projeto</h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <img class="w-100 h-50" src="./img/atividades/atividades 02.jpg" class="img-fluid" alt="Projetos" >
+                    <div class="banner-content">
+                        <p class="secondary-color fw-bold">Categoria</p>
+                        <h3>Nome do Projeto</h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <img class="w-100 h-50" src="./img/atividades/atividades 06.jpg" class="img-fluid" alt="Projetos" >
+                    <div class="banner-content">
+                        <p class="secondary-color fw-bold">Categoria</p>
+                        <h3>Nome do Projeto</h3>
+                    </div>
+                </div>
+                </div> -->
+
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button data-bs-toggle="tab" data-bs-target="#atividades" type="button"
+                                class="nav-link fw-bold text-start  active">Atividades</button>
+                            <button data-bs-toggle="tab" data-bs-target="#ofertas" type="button"
+                                class="nav-link fw-bold text-start ">Ofertas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="atividades">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 h-50" src="./img/atividades/atividades 01.jpeg"
+                                            alt="coca cola">
+                                        <h5 class="  fw-bold">Academia</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 h-50" src="./img/atividades/atividades 02.jpg"
+                                            alt="imagem de copos de suco">
+                                        <h5 class="  fw-bold">Alpinismo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 h-50" src="./img/atividades/atividades 04.jpg"
+                                            alt="coca cola">
+                                        <h5 class="  fw-bold">Caminhar</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 h-50" src="./img/atividades/atividades 05.jpg"
+                                            alt="imagem de copos de suco">
+                                        <h5 class="  fw-bold">Trilhas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 h-50" src="./img/hoteis/frança/entretenimento 01.jpg"
+                                            alt="cerveja">
+                                        <h5 class="  fw-bold">Teatro</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 h-50" src="./img/hoteis/frança/entretenimento 03.jpg"
+                                            alt="vinho">
+                                        <h5 class="  fw-bold">Balé </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="ofertas">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 h-50" src="./img/restaurante/restaurante 01.jpeg"
+                                            alt="cerveja">
+                                        <h5 class="  fw-bold">restaurante</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 h-50" src="./img/restaurante/restaurante 02.jpg"
+                                            alt="vinho">
+                                        <h5 class="  fw-bold">restaurante</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 h-50" src="./img/restaurante/restaurante 03.jpg"
+                                            alt="cerveja">
+                                        <h5 class="  fw-bold">restaurante</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 h-50" src="./img/restaurante/restaurante 04.jpg"
+                                            alt="vinho">
+                                        <h5 class="  fw-bold">restaurante</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- INFO -->
+
+        <section class="container" id="info-container">
+            <div class="col-12 mt-5">
+                <h2 class="title primary-color">Detalhes importantes</h2>
+                <p class="subtitle secondary-color">
+                    Saiba mais sobre nossa equipe
+                </p>
+            </div>
+
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-5" id="info-banner">
+                        <img src="./img/atividades/mountains-3959204_1280.jpg" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="title primary-color">Estes dados fazem a diferença</h2>
+                                <p class="subtitle secondary-color">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam quibusdam fugiat
+                                    cupiditate impedit cum accusantium dicta totam nostrum! Blanditiis voluptas atque
+                                    voluptate soluta quaerat nulla incidunt animi facere laudantium repudiandae?
+                                </p>
+                            </div>
+
+                            <div class="col-12" id="info-numbers">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h3 class="primary-color">48</h3>
+                                        <p class="secondary-color">
+                                            Anos no ramo de hotelaria
+                                        </p>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <h3 class="primary-color">33</h3>
+                                        <p class="secondary-color">
+                                            Hoteis espalhados pelo mundo
+                                        </p>
+                                    </div>
+
+                                    <div class="col-12 mt-5">
+                                        <button class="btn btn-dark ">
+                                            Saber mais
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer class="container-fluid bg-dark-color" id="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- FOOTER TOP -->
+                    <div class="col-12" id="footer-top">
+                        <div class="row justify-content-between">
+                            <div class="col-4">
+                                <h2>Small Price</h2>
+                            </div>
+                            <div class="col-4" id="social-icons">
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-youtube"></i>
+                                <i class="bi bi-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FOOTER DETAILS -->
+
+                    <div class="col-12" id="footer-details">
+                        <div class="row">
+                            <div class="col-12 col-md-4" id="news-container">
+                                <h4>Fique por dentro das novidades</h4>
+                                <p class="secondary-color">
+                                    Inscreva-se para saber em primeira mão
+                                </p>
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Digite seu E-mail">
+                                    </div>
+                                    <button class="btn btn-dark" type="submit">Inscrever</button>
+                                </form>
+                            </div>
+
+                            <div class="col-12 col-md-4" id="contact-container">
+                                <h4>Formas de contato</h4>
+                                <p class="secondary-color">
+                                    (63) 691547821
+                                </p>
+                                <p class="secondary-color">
+                                    contato@smallprice.com
+                                </p>
+                            </div>
+
+                            <div class="col-12 col-md-4" id="links-container">
+                                <div class="row">
+                                    <h4>Você pode esta procurando por:</h4>
+                                    <div class="col-6">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#" class="secondary-color">Descanço</a></li>
+                                            <li><a href="#" class="secondary-color">Diverção</a></li>
+                                            <li><a href="#" class="secondary-color">Privacidade</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#" class="secondary-color">Entretenimento</a></li>
+                                            <li><a href="#" class="secondary-color">Arte</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FOOTER BOTTON -->
+
+                    <div class="col-12" id="footer-bottom">
+                        <div class="col-12" id="footer-bot">
+                            <div class="row justify-conyent-between">
+                                <div class="col-12 col-md-3">
+                                    <p class="secondary-color">
+                                        Small &copy;2023
+                                    </p>
+                                </div>
+
+                                <div class="col-12 col-md-3">
+                                    <p class="secondary-color">
+                                        <i class="bi bi-heart"></i> Realizamos o seu sonho </i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
